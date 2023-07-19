@@ -47,7 +47,8 @@ a {
   max-width: 1400px;
   margin: 0 auto;
   background: #fff;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); */
+  box-shadow: 1px 1px 3px black;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -93,12 +94,13 @@ a {
   align-items: center;
   justify-content: center;
   gap: 6.5rem;
-}
-.signin_first {
-  width: 30%;
+  
   background-image: url('../images/Group\ 14.png');
   background-size: contain;
   background-repeat: no-repeat;
+}
+.signin_first {
+  width: 30%;
 }
 .signin_first p {
   color: #534c64;

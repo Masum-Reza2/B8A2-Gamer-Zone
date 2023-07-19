@@ -27,4 +27,15 @@
       .signin_first, .signin_second{
         width: 63%;
       }
+      .signin_first .player_highlight {
+        font-size: 50px;
+      }
+      .signin_section {
+        background-image: none;
+      }
+      .signin_first{
+        background-image: url('../images/Group\ 14.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
 }
