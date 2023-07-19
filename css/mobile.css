@@ -70,4 +70,17 @@
     margin-top: 0;
     margin-bottom: 3rem;
   }
+
+  /* game_highlight_section starts */
+  .game_highlight_section{
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .particular_games{
+    margin-bottom: 1rem;
+    width: 70%;
+  }
+  .online_section{
+    margin-top: 8rem;
+  }
 }
