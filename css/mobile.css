@@ -88,12 +88,12 @@
 
   /* instant_play_section */
   .instant_play_section {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .instant_play-box_one {
     width: 80%;
-    margin-top: 5rem;
+    margin-top: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -119,5 +119,12 @@
   .aside_img {
     bottom: -1rem;
     left: -2rem;
+  }
+  /* instant_play_section */
+
+  /* play_anywhere styles */
+  .instant_play-box_two .aside_img_remodify{
+    bottom: -1rem;
+    right: -2rem;
   }
 }

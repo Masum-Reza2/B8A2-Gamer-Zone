@@ -114,4 +114,14 @@
     bottom: -1rem;
     left: -2rem;
   }
+  /* instant_play_section */
+
+  /* play_anywhere styles */
+  .play_anywhere{
+    flex-direction: column-reverse;
+  }
+  .instant_play-box_two .aside_img_remodify{
+    bottom: -1rem;
+    right: -2rem;
+  }
 }

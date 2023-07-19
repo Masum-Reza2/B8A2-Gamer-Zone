@@ -355,3 +355,18 @@ button {
     left: -5rem;
 }
 /* instant_play_section ends here */
+
+
+/* play_anywhere starts here */
+.play_anywhere{
+    margin-top: 5rem;
+    flex-direction: row-reverse;
+}
+
+.play_anywhere .aside_img_remodify{
+    position: absolute;
+    max-height: 33vh;
+    max-width: 42%;
+    bottom: 0;
+    right: -5rem;
+}
