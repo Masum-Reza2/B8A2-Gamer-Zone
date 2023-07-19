@@ -62,4 +62,20 @@
     margin-bottom: 3rem;
   }
   /* gamer section */
+
+  /* game_highlight_section starts */
+  .game_highlight_section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin-top: 4rem;
+    grid-gap: 0;
+  }
+  .particular_games {
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+  .online_section {
+    margin-top: 8rem;
+  }
 }

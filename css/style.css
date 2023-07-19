@@ -213,6 +213,8 @@ button {
 /* online games section starts here */
 .online_section {
   margin-top: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .online_section h1 {
   text-align: center;
