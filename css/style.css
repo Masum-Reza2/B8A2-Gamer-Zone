@@ -315,6 +315,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .instant_play-box_one {
@@ -352,3 +354,4 @@ button {
     bottom: -3rem;
     left: -5rem;
 }
+/* instant_play_section ends here */
