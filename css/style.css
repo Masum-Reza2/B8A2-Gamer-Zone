@@ -8,12 +8,14 @@
 }
 /* shared styles starts here */
 .menus a:hover,
-.menus i:hover, button:hover {
+.menus i:hover,
+button:hover {
   transform: translateY(-0.13rem);
   cursor: pointer;
 }
 .menus a:active,
-.menus i:active, button:active {
+.menus i:active,
+button:active {
   transform: translateY(0.13rem);
   cursor: pointer;
 }
@@ -28,17 +30,20 @@ a {
   font-size: 15px;
   border: 0;
 }
-.btn_sin{
-    background-color: #FF42A5;
-    color: white;
-    font-weight: 600;
+.btn_sin {
+  background-color: #ff42a5;
+  color: white;
+  font-weight: 600;
 }
-.btn_rf{
-    background-color: #4EC5F7;
-    color: white;
-    font-weight: 600;
+.btn_rf {
+  background-color: #4ec5f7;
+  color: white;
+  font-weight: 600;
 }
-
+img {
+  height: 100%;
+  width: 100%;
+}
 /* shared styles ends here */
 
 /* header style starts here */
@@ -94,8 +99,8 @@ a {
   align-items: center;
   justify-content: center;
   gap: 6.5rem;
-  
-  background-image: url('../images/Group\ 14.png');
+
+  background-image: url("../images/Group\ 14.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -106,7 +111,6 @@ a {
   color: #534c64;
   margin: 10px 0;
   font-size: small;
-
 }
 .signin_first h1 {
   font-weight: 700;
@@ -130,8 +134,77 @@ a {
   width: 100%;
   height: 100%;
 }
-.f_icons{
-    margin-right: 10px;
-    text-align: left;
+.f_icons {
+  margin-right: 10px;
+  text-align: left;
 }
 /* sign in section ends here */
+
+/* gamer_section strats here */
+.gamer_section {
+  min-height: 75vh;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.gamer_photo {
+  width: 40%;
+  height: 60vh;
+}
+.gamer_info {
+  width: 30%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.gamer_info h1,
+h3,
+p,
+button {
+  margin-bottom: 10px;
+}
+.gamer_info p {
+  text-align: right;
+  font-size: small;
+  color: #534c64;
+  font-weight: 400;
+  padding-left: 1rem;
+  line-height: 20px;
+}
+
+.gamer_info h1 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.gamer_info button {
+  background-color: #f948b2;
+  color: white;
+  font-weight: 600;
+}
+
+.gamer_info h3 {
+  color: #464151;
+  text-align: right;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 45px; /* 187.5% */
+}
+.gamer_info .bold{
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+}

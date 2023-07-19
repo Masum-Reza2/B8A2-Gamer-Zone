@@ -1,41 +1,70 @@
 /* Responsive Mobile designs */
-@media screen and (max-width:576px) {
-    /* navbar */
-    .navbar{
-        padding-top: 2rem;
-        box-shadow: none;
-    }
-    .navbar, .menus{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .menus{
-        margin-top: 1.5rem;
-    }
-    /* navbar */
+@media screen and (max-width: 576px) {
+  /* navbar */
+  .navbar {
+    padding-top: 2rem;
+    box-shadow: none;
+  }
+  .navbar,
+  .menus {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menus {
+    margin-top: 1.5rem;
+  }
+  /* navbar */
 
-    /* main signin section */
-    main{
-        margin-top: 3rem;
-    }
-    .signin_section {
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-      }
-      .signin_first, .signin_second{
-        width: 63%;
-      }
-      .signin_first .player_highlight {
-        font-size: 50px;
-      }
-      .signin_section {
-        background-image: none;
-      }
-      .signin_first{
-        background-image: url('../images/Group\ 14.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-      }
+  /* main signin section */
+  main {
+    margin-top: 3rem;
+  }
+  .signin_section {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .signin_first,
+  .signin_second {
+    width: 63%;
+  }
+  .signin_first .player_highlight {
+    font-size: 50px;
+  }
+  .signin_section {
+    background-image: none;
+  }
+  .signin_first {
+    background-image: url("../images/Group\ 14.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  /* signin section */
+
+  /* gamer section */
+  .gamer_section {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .gamer_photo,
+  .gamer_info {
+    width: 100%;
+  }
+  .gamer_info {
+    padding: 1rem;
+    align-items: center;
+  }
+  .gamer_info .game_para{
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .gamer_info h1 {
+    font-size: 1.6rem;
+  }
+  .gamer_info button{
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
 }
