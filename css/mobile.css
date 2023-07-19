@@ -3,7 +3,7 @@
     /* navbar */
     .navbar{
         padding-top: 2rem;
-        box-shadow: 0;
+        box-shadow: none;
     }
     .navbar, .menus{
         flex-direction: column;
