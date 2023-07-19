@@ -10,7 +10,8 @@
   }
   /* navbar */
 
-  /* main */
+  /* main starts  */
+
   /* signin_section */
   main {
     margin-top: 3rem;
@@ -63,10 +64,10 @@
   }
   /* gamer section */
 
-  /* game_highlight_section starts */
+  /* game_highlight_section */
   .game_highlight_section {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     place-items: center;
     margin-top: 4rem;
     grid-gap: 0;
@@ -76,6 +77,7 @@
     width: 80%;
   }
   .online_section {
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
+  /* game_highlight_section */
 }

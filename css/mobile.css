@@ -55,7 +55,7 @@
     padding: 1rem;
     align-items: center;
   }
-  .gamer_info .game_para{
+  .gamer_info .game_para {
     padding: 2rem;
     margin: 0 auto;
     text-align: center;
@@ -63,24 +63,26 @@
   .gamer_info h1 {
     font-size: 1.6rem;
   }
-  .gamer_info h3{
+  .gamer_info h3 {
     font-size: 1rem;
   }
-  .gamer_info button{
+  .gamer_info button {
     margin-top: 0;
     margin-bottom: 3rem;
   }
+  /* gamer section */
 
   /* game_highlight_section starts */
-  .game_highlight_section{
+  .game_highlight_section {
     flex-direction: column;
     margin-top: 4rem;
   }
-  .particular_games{
+  .particular_games {
     margin-bottom: 1rem;
     width: 70%;
   }
-  .online_section{
+  .online_section {
     margin-top: 8rem;
   }
+  /* game_highlight_section starts */
 }

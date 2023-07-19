@@ -76,6 +76,8 @@ img {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  font-size: small;
+  font-weight: 500;
 }
 .flash_logo {
   color: #ff42a5;
@@ -85,7 +87,9 @@ img {
   background: rgba(11, 2, 35, 0.1);
   display: flex;
   gap: 1rem;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
+  font-size: small;
+  font-weight: 500;
   padding: 0.5rem;
 }
 /* header ends here*/
@@ -153,6 +157,8 @@ img {
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .gamer_photo {
@@ -285,14 +291,15 @@ button {
   font-weight: 700;
   display: none;
 }
-.watch_now:active{
-    transform: translateY(-0.10rem);
+.watch_now:active {
+  transform: translateY(-0.1rem);
 }
 .particular_games:hover .watch_now {
   display: flex;
 }
-.particular_games:hover{
-    transform: scale(1.1);
-    border: 3px solid #f948b2;
-    border-radius: 15px;
+.particular_games:hover {
+  transform: scale(1.1);
+  border: 3px solid #f948b2;
+  border-radius: 15px;
 }
+/* online section ends here */
