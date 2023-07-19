@@ -9,4 +9,28 @@
         margin-top: 1.5rem;
     }
     /* navbar */
+
+    /* main */
+    /* signin_section */
+    main{
+        margin-top: 3rem;
+    }
+    .signin_section {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+      }
+      .signin_first, .signin_second{
+        width: 63%;
+      }
+      .signin_first{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: left;
+      }
+      /* signin section */
 }

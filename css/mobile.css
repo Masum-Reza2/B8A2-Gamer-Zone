@@ -1,6 +1,10 @@
 /* Responsive Mobile designs */
 @media screen and (max-width:576px) {
     /* navbar */
+    .navbar{
+        padding-top: 2rem;
+        box-shadow: 0;
+    }
     .navbar, .menus{
         flex-direction: column;
         justify-content: center;
@@ -9,4 +13,18 @@
         margin-top: 1.5rem;
     }
     /* navbar */
+
+    /* main signin section */
+    main{
+        margin-top: 3rem;
+    }
+    .signin_section {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+      }
+      .signin_first, .signin_second{
+        width: 63%;
+      }
 }
