@@ -63,6 +63,9 @@
   .gamer_info h1 {
     font-size: 1.6rem;
   }
+  .gamer_info h3{
+    font-size: 1rem;
+  }
   .gamer_info button{
     margin-top: 0;
     margin-bottom: 3rem;
