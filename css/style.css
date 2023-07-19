@@ -291,9 +291,14 @@ button {
   font-weight: 700;
   display: none;
 }
-.watch_now:active {
+
+.watch_now:hover {
   transform: translateY(-0.1rem);
 }
+.watch_now:active {
+  transform: translateY(0.1rem);
+}
+
 .particular_games:hover .watch_now {
   display: flex;
 }
@@ -303,3 +308,47 @@ button {
   border-radius: 15px;
 }
 /* online section ends here */
+
+/* instant_play_section starts here */
+.instant_play_section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.instant_play-box_one {
+  width: 25%;
+}
+.instant_play-box_two {
+  width: 35%;
+  height: 70vh;
+  position: relative;
+}
+.instant_play-box_two img {
+  border-radius: 10px;
+}
+.instant_play-box_one h1 {
+  font-weight: 700;
+  color: #0b0223;
+  font-size: 2rem;
+  text-align: right;
+}
+.instant_play-box_one .colorful_heading {
+  color: #f948b2;
+}
+.instant_play-box_one p {
+  margin-top: 1rem;
+  font-size: small;
+  color: #534c64;
+  text-align: right;
+  font-weight: 400;
+  line-height: 25px;
+}
+.aside_img{
+    position: absolute;
+    max-height: 33vh;
+    max-width: 42%;
+    bottom: -3rem;
+    left: -5rem;
+}
