@@ -420,3 +420,28 @@ button {
 /* career_section ends here */
 
 /* sponsors_section starts here */
+.sponsors_section {
+  margin: 2rem auto;
+  min-height: 30vh;
+  max-width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+.spons_item {
+  height: 10vh;
+  width: 17vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spons_item img {
+  width: 80%;
+}
+.spons_item h5 {
+  font-size: small;
+  color: #0b0223;
+  font-weight: 600;
+}
