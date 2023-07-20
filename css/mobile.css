@@ -154,7 +154,7 @@
     width: 100%;
     grid-template-columns: repeat(3, 20vw);
     grid-template-rows: repeat(3, auto);
-    grid-row-gap: 1rem;
+    grid-row-gap: 0.8rem;
     grid-column-gap: 3.5rem;
     place-items: center;
   }
@@ -165,14 +165,13 @@
  
   .spons_item h5 {
     text-align: center;
-    transform: translateX(-1.5rem);
-    font-size: 0.4rem;
+    transform: translateX(-2rem);
+    font-size: 0.3rem;
     font-weight: 700;
-    line-height: 30px;
   }
 
   .spons_item img {
-    width: 50%;
+    width: 30%;
   }
 
   /* footer section styles */
