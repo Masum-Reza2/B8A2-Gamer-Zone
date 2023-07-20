@@ -152,9 +152,10 @@
   .sponsors_section {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(3,20vw);
-    grid-template-rows: repeat(3,auto);
-    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 1rem;
+    grid-column-gap: 3.5rem;
     place-items: center;
   }
   .spons_item{
