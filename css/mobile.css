@@ -161,4 +161,26 @@
   .spons_item img{
     width: 70%;
   }
+
+  /* footer section styles */
+  .logo_redifened img {
+    width: 15%;
+  }
+  .footer_features{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 1rem;
+  }
+  .footer_sponsor{
+    grid-template-columns: repeat(3,10vw);
+    font-size: 25px;
+    place-items: center;
+  }
+  .footer_terms_policy{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .copyright_info{
+    font-size: x-small;
+    padding: 0 6rem;
+  }
 }
